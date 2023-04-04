@@ -1,0 +1,146 @@
+body {
+
+background-color: #AEAEF5;
+  align-items: center;
+  text-align: center;
+}
+
+#dtext {
+
+color:#AEAEF5 ;
+
+}
+
+#sec {
+	 text-transform: uppercase;
+	 font-weight: bolder;
+	 font-size: 35pt;
+color: #06065C;
+	line-height: 49px;
+	 	
+	 
+font-family: monospace;}
+
+#fir {
+
+	text-transform: lowercase;
+	 font-size: 13pt;
+	 color:  #0E1668;
+	 line-height: 45px; 
+font-family: ui-monospace;
+}
+
+#fi2 {
+
+  text-transform: lowercase;
+   font-size: 13pt;
+   color:  #0E1668;
+   font-weight: bold;
+font-family: ui-monospace;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.typewriter{
+ font-family: monospace;
+  color: #fff;
+  padding-left: 30px;
+  display: block;
+}
+
+
+.typewriter-text {
+  padding-right: 10px;
+  color: #CC163F;
+  border-right: solid #CC163F 6px;
+  text-transform: uppercase;
+  animation: cursor 1s ease-in-out infinite;
+  font-weight: bold;
+}
+@keyframes cursor {
+  from { border-color: white; }
+  to { border-color: transparent; }
+}
+
+@media (max-width: 767.98px) {
+  .typewriter { font-size: 35px; }
+}
+@media (min-width: 768px) {
+  .typewriter { font-size: 60px; }
+}
+
+button {
+  width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+img {
+
+  width: 450px;
+ margin-top: 8%;
+}
+
+#only {
+
+
+  width: 450px;
+ margin-top: 1%;
+
+
+}
+
+#me{
+
+
+
+  line-height: 25px;
+  font-size: 15px;
+font:  ui-monospace;
+  color:  #9270E5 ;
+  text-align: left;
+}
+
+
+#dab {
+
+
+  width: 630px;
+
+padding: 22px;
+
+
+background-color: #0E1011; 
+font-family: ui-monospace;
+text-align: left;
+}
